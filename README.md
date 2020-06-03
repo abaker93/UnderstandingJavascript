@@ -1,2 +1,0 @@
-# UnderstandingJavascript
-Created with CodeSandbox
