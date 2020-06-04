@@ -249,16 +249,24 @@
 //      13 - JAVASCRIPT MATH
 // -----------------------------------------
 
-console.log(Math.PI); // pi
+// console.log(Math.PI); // pi
 
-console.log(Math.random() * 10); // random #
+// console.log(Math.random() * 10); // random #
 
-console.log(Math.ceil(Math.random() * 100)); // round up
+// console.log(Math.ceil(Math.random() * 100)); // round up
 
-console.log(Math.floor(Math.random() * 100)); // round down
+// console.log(Math.floor(Math.random() * 100)); // round down
 
-console.log(Math.round(Math.random() * 100)); // round to nearest whole number
+// console.log(Math.round(Math.random() * 100)); // round to nearest whole number
 
-console.log(Math.min(8, 15, 3, 648)); // finds lowest number
+// console.log(Math.min(8, 15, 3, 648)); // finds lowest number
 
-console.log(Math.max(8, 15, 3, 648)); // finds highest number
+// console.log(Math.max(8, 15, 3, 648)); // finds highest number
+
+// -----------------------------------------
+//      14 - CHALLENGE - RANDOM NUMBER
+// -----------------------------------------
+
+var roundedNumber = Math.round(Math.random() * 100) + 1;
+
+console.log(roundedNumber);
