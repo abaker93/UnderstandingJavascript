@@ -57,3 +57,12 @@
 // -----------------------------------------
 //           LESSON 8
 // -----------------------------------------
+
+var player = 'Anna';
+var score = 100;
+
+var displayScore = '<h3>' + player + "'s score is " + score + ' points!</h3>';
+
+console.log(player, score);
+
+document.write(displayScore);
