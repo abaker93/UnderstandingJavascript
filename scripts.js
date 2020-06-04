@@ -109,14 +109,32 @@
 //      7 - ARRAYS
 // -----------------------------------------
 
-var users = [];
+// var users = [];
 
-users[0] = 'Chris';
-users[1] = 'Mike';
-users[2] = 'Paul';
+// users[0] = 'Chris';
+// users[1] = 'Mike';
+// users[2] = 'Paul';
+
+// document.write(users + '<br />');
+
+// var users2 = ['Chris', 'Mike', 'Paul'];
+
+// document.write(users2.length);
+
+// -----------------------------------------
+//      8 - ARRAY METHODS
+// -----------------------------------------
+
+var users = ['Chris', 'Mike', 'Paul'];
+
+users.push('Tom');
+users.unshift('Bob');
+users.shift();
+users.pop();
+users.reverse();
+
+var slice = users.slice(1, 2);
 
 document.write(users + '<br />');
 
-var users2 = ['Chris', 'Mike', 'Paul'];
-
-document.write(users2.length);
+document.write(slice);
