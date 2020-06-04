@@ -224,23 +224,41 @@
 // phone.model = 'iPhone';
 // phone.color = 'silver';
 
-var phone = {
-	manufacturer: 'Apple',
-	model: 'iPhone',
-	color: 'silver',
-	features: {
-		bluetooth: true,
-		wifi: true,
-		gps: false
-	}
-};
+// var phone = {
+// 	manufacturer: 'Apple',
+// 	model: 'iPhone',
+// 	color: 'silver',
+// 	features: {
+// 		bluetooth: true,
+// 		wifi: true,
+// 		gps: false
+// 	}
+// };
 
-console.log(phone);
-console.log(phone['model']);
-console.log(phone.features.gps);
+// console.log(phone);
+// console.log(phone['model']);
+// console.log(phone.features.gps);
 
-function yourPhone() {
-	console.log('Manufacturer: ' + phone.manufacturer);
-}
+// function yourPhone() {
+// 	console.log('Manufacturer: ' + phone.manufacturer);
+// }
 
-yourPhone();
+// yourPhone();
+
+// -----------------------------------------
+//      13 - JAVASCRIPT MATH
+// -----------------------------------------
+
+console.log(Math.PI); // pi
+
+console.log(Math.random() * 10); // random #
+
+console.log(Math.ceil(Math.random() * 100)); // round up
+
+console.log(Math.floor(Math.random() * 100)); // round down
+
+console.log(Math.round(Math.random() * 100)); // round to nearest whole number
+
+console.log(Math.min(8, 15, 3, 648)); // finds lowest number
+
+console.log(Math.max(8, 15, 3, 648)); // finds highest number
