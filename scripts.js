@@ -179,14 +179,29 @@
 //      10 - FUNCTION PARAMETERS
 // -----------------------------------------
 
-function alertMessage(message) {
-	console.log(message);
+// function alertMessage(message) {
+// 	console.log(message);
+// }
+
+// alertMessage('I am learning Javascript!');
+
+// function multiplyNumber(num1, num2) {
+// 	console.log(num1 * num2);
+// }
+
+// multiplyNumber(5, 4);
+
+// -----------------------------------------
+//      11 - SCOPE
+// -----------------------------------------
+
+var a = 2;
+var b = 5;
+
+function multiply() {
+	console.log(a * b);
 }
 
-alertMessage('I am learning Javascript!');
+multiply();
 
-function multiplyNumber(num1, num2) {
-	console.log(num1 * num2);
-}
-
-multiplyNumber(5, 4);
+console.log(a);
