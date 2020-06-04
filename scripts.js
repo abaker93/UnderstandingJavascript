@@ -125,16 +125,52 @@
 //      8 - ARRAY METHODS
 // -----------------------------------------
 
-var users = ['Chris', 'Mike', 'Paul'];
+// var users = ['Chris', 'Mike', 'Paul'];
 
-users.push('Tom');
-users.unshift('Bob');
-users.shift();
-users.pop();
-users.reverse();
+// users.push('Tom');
+// users.unshift('Bob');
+// users.shift();
+// users.pop();
+// users.reverse();
 
-var slice = users.slice(1, 2);
+// var slice = users.slice(1, 2);
 
-document.write(users + '<br />');
+// document.write(users + '<br />');
 
-document.write(slice);
+// document.write(slice);
+
+// -----------------------------------------
+//      9 - FUNCTIONS
+// -----------------------------------------
+
+var a = 5;
+var b = 10;
+
+function myFunction() {
+	var c = a * b;
+	document.write(c);
+}
+
+myFunction();
+
+var score = 0;
+var lives = 10;
+var gameOver = false;
+
+function lifeLost() {
+	score = 0;
+	lives--;
+	gameOver = true;
+	document.write('<h2>Game Over, you have ' + lives + ' lives left.</h2>');
+}
+
+lifeLost();
+lifeLost();
+lifeLost();
+lifeLost();
+lifeLost();
+lifeLost();
+lifeLost();
+lifeLost();
+lifeLost();
+lifeLost();
