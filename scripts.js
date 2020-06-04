@@ -90,17 +90,33 @@
 //      6 - CHALLENGE - NAME FORMATTER
 // -----------------------------------------
 
-var name = 'AnNa baKer';
-var split = name.split(' ');
-var name1 = split[0]
-	.slice(0, 1)
-	.toUpperCase()
-	.concat(split[0].slice(1).toLowerCase());
-var name2 = split[1]
-	.slice(0, 1)
-	.toUpperCase()
-	.concat(split[1].slice(1).toLowerCase());
+// var name = 'AnNa bAkEr';
+// var split = name.split(' ');
+// var name1 = split[0]
+// 	.slice(0, 1)
+// 	.toUpperCase()
+// 	.concat(split[0].slice(1).toLowerCase());
+// var name2 = split[1]
+// 	.slice(0, 1)
+// 	.toUpperCase()
+// 	.concat(split[1].slice(1).toLowerCase());
 
-var concat = name1 + ' ' + name2;
+// var concat = name1 + ' ' + name2;
 
-console.log(concat);
+// console.log(concat);
+
+// -----------------------------------------
+//      7 - ARRAYS
+// -----------------------------------------
+
+var users = [];
+
+users[0] = 'Chris';
+users[1] = 'Mike';
+users[2] = 'Paul';
+
+document.write(users + '<br />');
+
+var users2 = ['Chris', 'Mike', 'Paul'];
+
+document.write(users2.length);
