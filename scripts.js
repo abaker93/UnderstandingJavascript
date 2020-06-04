@@ -67,21 +67,40 @@
 //      5 - STRING METHODS
 // -----------------------------------------
 
-var string = 'Learning Javascript';
-var uppercase = string.toUpperCase();
-var lowercase = string.toLowerCase();
-var split = string.split(' ');
-var joinedString = split[0].concat(split[1]);
-var slice = string.slice(2, 6);
+// var string = 'Learning Javascript';
+// var uppercase = string.toUpperCase();
+// var lowercase = string.toLowerCase();
+// var split = string.split(' ');
+// var joinedString = split[0].concat(split[1]);
+// var slice = string.slice(2, 6);
 
-console.log(uppercase);
-console.log(lowercase);
-console.log(split);
-console.log(split[1]);
-console.log(joinedString);
-console.log(slice);
+// console.log(uppercase);
+// console.log(lowercase);
+// console.log(split);
+// console.log(split[1]);
+// console.log(joinedString);
+// console.log(slice);
 
-var sentance = 'I want to learn Javascript to build websites';
-var newSentance = sentance.replace('websites', 'games');
+// var sentance = 'I want to learn Javascript to build websites';
+// var newSentance = sentance.replace('websites', 'games');
 
-console.log(newSentance);
+// console.log(newSentance);
+
+// -----------------------------------------
+//      6 - CHALLENGE - NAME FORMATTER
+// -----------------------------------------
+
+var name = 'AnNa baKer';
+var split = name.split(' ');
+var name1 = split[0]
+	.slice(0, 1)
+	.toUpperCase()
+	.concat(split[0].slice(1).toLowerCase());
+var name2 = split[1]
+	.slice(0, 1)
+	.toUpperCase()
+	.concat(split[1].slice(1).toLowerCase());
+
+var concat = name1 + ' ' + name2;
+
+console.log(concat);
