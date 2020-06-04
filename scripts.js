@@ -195,13 +195,52 @@
 //      11 - SCOPE
 // -----------------------------------------
 
-var a = 2;
-var b = 5;
+// var a = 2;
+// var b = 5;
 
-function multiply() {
-	console.log(a * b);
+// function multiply() {
+// 	console.log(a * b);
+// }
+
+// multiply();
+
+// console.log(a);
+
+// -----------------------------------------
+//      12 - OBJECTS
+// -----------------------------------------
+
+// var phone = new Object();
+
+// phone['manufacturer'] = 'Apple';
+// phone['model'] = 'iPhone';
+// phone['color'] = 'silver';
+
+// console.log(phone);
+
+// var phone = new Object();
+
+// phone.manufacturer = 'Apple';
+// phone.model = 'iPhone';
+// phone.color = 'silver';
+
+var phone = {
+	manufacturer: 'Apple',
+	model: 'iPhone',
+	color: 'silver',
+	features: {
+		bluetooth: true,
+		wifi: true,
+		gps: false
+	}
+};
+
+console.log(phone);
+console.log(phone['model']);
+console.log(phone.features.gps);
+
+function yourPhone() {
+	console.log('Manufacturer: ' + phone.manufacturer);
 }
 
-multiply();
-
-console.log(a);
+yourPhone();
