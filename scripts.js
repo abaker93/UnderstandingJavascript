@@ -1,12 +1,12 @@
 // -----------------------------------------
-//           LESSON 4
+//      1 - VARIABLES ASSIGNMENT
 // -----------------------------------------
 
 // var pageTitle = 'Displaying Javascript in web pages.';
 // document.getElementById('title').innerHTML = pageTitle;
 
 // -----------------------------------------
-//           LESSON 5
+//      2 - NUMBERS - ARITHMETIC
 // -----------------------------------------
 
 // var number1 = 5;
@@ -20,10 +20,6 @@
 //5 === 5;    TRUE    EQUAL VALUE AND EQUAL TYPE
 //5 === '5';  FALSE
 
-// -----------------------------------------
-//           LESSON 6
-// -----------------------------------------
-
 // var x = 10;
 // x++;
 // x++;
@@ -31,7 +27,7 @@
 // console.log(x);
 
 // -----------------------------------------
-//           LESSON 7
+//     3 - JS STRINGS
 // -----------------------------------------
 
 // var firstName = 'Anna';
@@ -55,14 +51,37 @@
 // console.log(nameLength);
 
 // -----------------------------------------
-//           LESSON 8
+//      4 - CHALLENGE - DISPLAY USERS SCORE
 // -----------------------------------------
 
-var player = 'Anna';
-var score = 100;
+// var player = 'Anna';
+// var score = 100;
 
-var displayScore = '<h3>' + player + "'s score is " + score + ' points!</h3>';
+// var displayScore = '<h3>' + player + "'s score is " + score + ' points!</h3>';
 
-console.log(player, score);
+// console.log(player, score);
 
-document.write(displayScore);
+// document.write(displayScore);
+
+// -----------------------------------------
+//      5 - STRING METHODS
+// -----------------------------------------
+
+var string = 'Learning Javascript';
+var uppercase = string.toUpperCase();
+var lowercase = string.toLowerCase();
+var split = string.split(' ');
+var joinedString = split[0].concat(split[1]);
+var slice = string.slice(2, 6);
+
+console.log(uppercase);
+console.log(lowercase);
+console.log(split);
+console.log(split[1]);
+console.log(joinedString);
+console.log(slice);
+
+var sentance = 'I want to learn Javascript to build websites';
+var newSentance = sentance.replace('websites', 'games');
+
+console.log(newSentance);
