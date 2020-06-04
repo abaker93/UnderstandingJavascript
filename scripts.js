@@ -275,33 +275,51 @@
 //      15 - DATES
 // -----------------------------------------
 
-var showDate = new Date();
+// var showDate = new Date();
 
-console.log(showDate);
+// console.log(showDate);
 
-var date = new Date();
-var dayOfMonth = date.getDate();
-var dayOfWeek = date.getDay();
-var month = date.getMonth();
-var year = date.getFullYear();
-var hours = date.getHours();
-var minutes = date.getMinutes();
-var seconds = date.getSeconds();
+// var date = new Date();
+// var dayOfMonth = date.getDate();
+// var dayOfWeek = date.getDay();
+// var month = date.getMonth();
+// var year = date.getFullYear();
+// var hours = date.getHours();
+// var minutes = date.getMinutes();
+// var seconds = date.getSeconds();
 
-document.write(
-	"Today's date is:<br />" +
-		'Day:' +
-		dayOfMonth +
-		'<br />' +
-		'Month:' +
-		month +
-		'<br />' +
-		'Year:' +
-		year
-);
+// document.write(
+// 	"Today's date is:<br />" +
+// 		'Day:' +
+// 		dayOfMonth +
+// 		'<br />' +
+// 		'Month:' +
+// 		month +
+// 		'<br />' +
+// 		'Year:' +
+// 		year
+// );
 
-var setDate = new Date();
-setDate.setMonth(11);
-setDate.setFullYear(2019);
+// var setDate = new Date();
+// setDate.setMonth(11);
+// setDate.setFullYear(2019);
 
-console.log(setDate);
+// console.log(setDate);
+
+// -----------------------------------------
+//      16 - IF STATEMENTS - COMPARISON
+// -----------------------------------------
+
+var a = 10;
+var b = 20;
+
+if (a >= b) {
+	document.write('a is equal to b!');
+}
+
+var loggedIn = true;
+var user = 'Chris';
+
+if (loggedIn) {
+	document.write('Welcome ' + user);
+}
