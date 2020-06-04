@@ -267,6 +267,41 @@
 //      14 - CHALLENGE - RANDOM NUMBER
 // -----------------------------------------
 
-var roundedNumber = Math.round(Math.random() * 100) + 1;
+// var roundedNumber = Math.round(Math.random() * 100) + 1;
 
-console.log(roundedNumber);
+// console.log(roundedNumber);
+
+// -----------------------------------------
+//      15 - DATES
+// -----------------------------------------
+
+var showDate = new Date();
+
+console.log(showDate);
+
+var date = new Date();
+var dayOfMonth = date.getDate();
+var dayOfWeek = date.getDay();
+var month = date.getMonth();
+var year = date.getFullYear();
+var hours = date.getHours();
+var minutes = date.getMinutes();
+var seconds = date.getSeconds();
+
+document.write(
+	"Today's date is:<br />" +
+		'Day:' +
+		dayOfMonth +
+		'<br />' +
+		'Month:' +
+		month +
+		'<br />' +
+		'Year:' +
+		year
+);
+
+var setDate = new Date();
+setDate.setMonth(11);
+setDate.setFullYear(2019);
+
+console.log(setDate);
