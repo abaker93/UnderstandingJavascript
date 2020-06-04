@@ -143,34 +143,50 @@
 //      9 - FUNCTIONS
 // -----------------------------------------
 
-var a = 5;
-var b = 10;
+// var a = 5;
+// var b = 10;
 
-function myFunction() {
-	var c = a * b;
-	document.write(c);
+// function myFunction() {
+// 	var c = a * b;
+// 	document.write(c);
+// }
+
+// myFunction();
+
+// var score = 0;
+// var lives = 10;
+// var gameOver = false;
+
+// function lifeLost() {
+// 	score = 0;
+// 	lives--;
+// 	gameOver = true;
+// 	document.write('<h2>Game Over, you have ' + lives + ' lives left.</h2>');
+// }
+
+// lifeLost();
+// lifeLost();
+// lifeLost();
+// lifeLost();
+// lifeLost();
+// lifeLost();
+// lifeLost();
+// lifeLost();
+// lifeLost();
+// lifeLost();
+
+// -----------------------------------------
+//      10 - FUNCTION PARAMETERS
+// -----------------------------------------
+
+function alertMessage(message) {
+	console.log(message);
 }
 
-myFunction();
+alertMessage('I am learning Javascript!');
 
-var score = 0;
-var lives = 10;
-var gameOver = false;
-
-function lifeLost() {
-	score = 0;
-	lives--;
-	gameOver = true;
-	document.write('<h2>Game Over, you have ' + lives + ' lives left.</h2>');
+function multiplyNumber(num1, num2) {
+	console.log(num1 * num2);
 }
 
-lifeLost();
-lifeLost();
-lifeLost();
-lifeLost();
-lifeLost();
-lifeLost();
-lifeLost();
-lifeLost();
-lifeLost();
-lifeLost();
+multiplyNumber(5, 4);
