@@ -490,3 +490,29 @@
 // -----------------------------------------
 //      25 - MINI CHALLENGE - PHONE BOOK
 // -----------------------------------------
+
+// var names = ['chris', 'paul', 'mike', 'andrew', 'don'];
+// var i = 1;
+
+// for (i = 0; i < names.length; i++) {
+// 	names.sort();
+// 	document.write('<pre>' + (i + 1) + ': ' + names[i] + '</pre>');
+// }
+
+// -----------------------------------------
+//      26 - ACCESSING ELEMENTS
+// -----------------------------------------
+
+document.getElementById('title').innerHTML = 'Displaying Javascript in webpages.';
+
+document.querySelector('.first').style.backgroundColor = 'red';
+
+var selector = document.getElementsByClassName('heading');
+selector[1].innerHTML = 'Class name selected';
+
+var selector2 = document.getElementsByTagName('p');
+selector2[1].innerHTML = 'Tag name selected';
+
+var numberOfImages = document.images.length;
+
+document.getElementById('example').innerHTML = 'This page has ' + numberOfImages + ' images.';
