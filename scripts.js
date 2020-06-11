@@ -541,3 +541,23 @@
 // -----------------------------------------
 //      28 - MINI CHALLENGE - TEMP CONVERTER
 // -----------------------------------------
+
+// var userTemp = document.getElementById('userInput').value;
+
+// function celsius() {
+// 	userTemp = ((userTemp - 32) * 5) / 9;
+// 	userTemp = Math.round(userTemp);
+// 	document.getElementById('results').innerHTML =
+// 		userInput.value + ' Fahrenheit is ' + userTemp + ' Celsius';
+// }
+
+// function fahrenheit() {
+// 	userTemp = (userTemp * 9) / 5 + 32;
+// 	userTemp = Math.round(userTemp);
+// 	document.getElementById('results').innerHTML =
+// 		userInput.value + ' Celsius is ' + userTemp + ' Fahrenheit';
+// }
+
+// -----------------------------------------
+//      29 - EVENTS
+// -----------------------------------------
