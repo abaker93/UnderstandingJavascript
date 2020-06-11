@@ -386,22 +386,55 @@
 //      20 - SWITCH STATEMENTS
 // -----------------------------------------
 
-var month = 'November';
+// var month = 'November';
 
-switch (month) {
-	case 'January':
-		document.write('Happy New Year');
-		break;
+// switch (month) {
+// 	case 'January':
+// 		document.write('Happy New Year');
+// 		break;
 
-	case 'July':
-		document.write('Half way through the year');
-		break;
+// 	case 'July':
+// 		document.write('Half way through the year');
+// 		break;
 
-	case 'November':
-	case 'December':
-		document.write('Happy Holidays');
-		break;
+// 	case 'November':
+// 	case 'December':
+// 		document.write('Happy Holidays');
+// 		break;
 
-	default:
-		document.write('The month is ' + month);
-}
+// 	default:
+// 		document.write('The month is ' + month);
+// }
+
+// -----------------------------------------
+//      21 - MINI CHALLENGE - HIGHER OR LOWER GAME
+// -----------------------------------------
+
+// var randomNum = Math.random() * 10;
+// randomNum = Math.round(randomNum);
+
+// function higher() {
+// 	if (randomNum > 5) {
+// 		document.getElementById('textField').innerHTML =
+// 			'Correct! The number was higher than 5.<br />Number: ' + randomNum;
+// 	} else {
+// 		document.getElementById('textField').innerHTML =
+// 			'The number was not higher than 5.<br />Number: ' + randomNum;
+// 	}
+// }
+
+// function lower() {
+// 	if (randomNum <= 5) {
+// 		document.getElementById('textField').innerHTML =
+// 			'Correct! The number was lower than 5.<br />Number: ' + randomNum;
+// 	} else {
+// 		document.getElementById('textField').innerHTML =
+// 			'The number was not higher than 5.<br />Number: ' + randomNum;
+// 	}
+// }
+
+// function reset() {
+// 	window.location.reload();
+// }
+
+// console.log(randomNum);
