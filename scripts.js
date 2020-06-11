@@ -561,3 +561,18 @@
 // -----------------------------------------
 //      29 - EVENTS
 // -----------------------------------------
+// function change() {
+// 	document.getElementById('button').className = 'btn btn-danger';
+// }
+
+// function keyPressed() {
+// 	document.getElementById('display').innerHTML = inputField.value;
+// }
+
+// function increaseFont() {
+// 	document.getElementById('inputField').style.fontSize = '50px';
+// }
+
+// function runValidation() {
+// 	console.log('form validation');
+// }

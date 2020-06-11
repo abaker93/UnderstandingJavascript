@@ -13,43 +13,37 @@
 	</head>
 
 	<body>
-		<h1>Hello World!</h1>
-		<!-- <input
-			type="button"
-			id="button"
-			class="btn btn-success"
-			value="Hello"
-			onmouseout="change()"
-		/> -->
+		<div class="container">
+			<div class="row text-center">
+				<h1 id="name">Anna</h1>
+				<input type="button" class="btn btn-info" value="Big" onclick="textBig()" />
+				<input
+					type="button"
+					class="btn btn-info"
+					value="Change Color"
+					onclick="textColor()"
+				/>
+				<input type="button" class="btn btn-info" value="Capitals" onclick="textCaps()" />
+				<input type="button" class="btn btn-info" value="Hide" onclick="textHide()" />
+				<input type="button" class="btn btn-info" value="Show" onclick="textShow()" />
+			</div>
+		</div>
 
-		<!-- <form action="">
-			<input type="text" id="inputField" onkeydown="keyPressed()" />
-		</form> -->
-
-		<!-- <form action="">
-			<input type="text" id="inputField" onchange="increaseFont()" />
-		</form> -->
-
-		<form action="" onsubmit="runValidation()">
-			<input type="submit" value="Submit Form" />
-		</form>
-
-		<!-- <h2 id="display"></h2> -->
 		<script>
-			// function change() {
-			// 	document.getElementById('button').className = 'btn btn-danger';
-			// }
-
-			// function keyPressed() {
-			// 	document.getElementById('display').innerHTML = inputField.value;
-			// }
-
-			// function increaseFont() {
-			// 	document.getElementById('inputField').style.fontSize = '50px';
-			// }
-
-			function runValidation() {
-				console.log('form validation');
+			function textBig() {
+				document.getElementById('name').style.fontSize = '4em';
+			}
+			function textColor() {
+				document.getElementById('name').style.color = 'red';
+			}
+			function textCaps() {
+				document.getElementById('name').style.textTransform = 'uppercase';
+			}
+			function textHide() {
+				document.getElementById('name').style.opacity = '0';
+			}
+			function textShow() {
+				document.getElementById('name').style.opacity = '1';
 			}
 		</script>
 		<script type="javascript" src="./scripts.js"></script>
