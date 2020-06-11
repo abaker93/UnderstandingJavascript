@@ -529,11 +529,15 @@
 // document.getElementById('title').id = 'id1';
 // document.getElementById('title').className = 'blue';
 
-var newElement = document.createElement('div');
-newElement.id = 'id1';
-var addText = document.createTextNode('new text string');
-var newContent = document.getElementById('title');
+// var newElement = document.createElement('div');
+// newElement.id = 'id1';
+// var addText = document.createTextNode('new text string');
+// var newContent = document.getElementById('title');
 
-newElement.appendChild(addText);
+// newElement.appendChild(addText);
 
-document.body.insertBefore(newElement, newContent);
+// document.body.insertBefore(newElement, newContent);
+
+// -----------------------------------------
+//      28 - MINI CHALLENGE - TEMP CONVERTER
+// -----------------------------------------

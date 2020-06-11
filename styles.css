@@ -1,17 +1,7 @@
-img {
-	max-width: 200px;
+body {
+	background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
 }
 
-.red {
-	color: red;
-	font-size: 2em;
-}
-
-.blue {
-	color: blue;
-	font-size: 2em;
-}
-
-#id1 {
-	font-family: Papyrus;
+#results {
+	margin-top: 20px;
 }
