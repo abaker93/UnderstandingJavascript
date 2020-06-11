@@ -325,7 +325,7 @@
 // }
 
 // -----------------------------------------
-//      17 - IF/ELSE STATEMENTS
+//      17 - IF ELSE STATEMENTS
 // -----------------------------------------
 
 // var loggedIn = false;
@@ -337,13 +337,28 @@
 // 	document.write('Please log in to view page');
 // }
 
-var speedLimit = 70;
-var yourSpeed = 70;
+// var speedLimit = 70;
+// var yourSpeed = 70;
 
-if (yourSpeed < speedLimit) {
-	document.write('Thank you for driving safely');
-} else if (yourSpeed > speedLimit) {
-	document.write('Please slow down');
+// if (yourSpeed < speedLimit) {
+// 	document.write('Thank you for driving safely');
+// } else if (yourSpeed > speedLimit) {
+// 	document.write('Please slow down');
+// } else {
+// 	document.write('Careful, you are driving at the speed limit');
+// }
+
+// -----------------------------------------
+//      18 - MINI CHALLENGE - AGE CHECKER
+// -----------------------------------------
+
+var minAge = 21;
+var yourAge = 26;
+
+if (yourAge < minAge) {
+	document.write("You're too young!");
+} else if (yourAge > minAge) {
+	document.write("You're old :P");
 } else {
-	document.write('Careful, you are driving at the speed limit');
+	document.write("You're just right");
 }
