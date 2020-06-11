@@ -464,9 +464,25 @@
 //      23 - DO WHILE LOOPS
 // -----------------------------------------
 
+// var i = 1;
+
+// do {
+// 	document.write(i + '<br>');
+// 	i++;
+// } while (i > 10);
+
+// -----------------------------------------
+//      24 - FOR LOOPS
+// -----------------------------------------
+
 var i = 1;
 
-do {
+for (i = 1; i < 10; i++) {
 	document.write(i + '<br>');
-	i++;
-} while (i > 10);
+}
+
+var foods = ['pasta', 'pizza', 'fish'];
+
+for (i = 0; i < foods.length; i++) {
+	document.write(foods[i] + '<br>');
+}
