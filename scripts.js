@@ -352,13 +352,32 @@
 //      18 - MINI CHALLENGE - AGE CHECKER
 // -----------------------------------------
 
-var minAge = 21;
-var yourAge = 26;
+// var minAge = 21;
+// var yourAge = 26;
 
-if (yourAge < minAge) {
-	document.write("You're too young!");
-} else if (yourAge > minAge) {
-	document.write("You're old :P");
-} else {
-	document.write("You're just right");
+// if (yourAge < minAge) {
+// 	document.write("You're too young!");
+// } else if (yourAge > minAge) {
+// 	document.write("You're old :P");
+// } else {
+// 	document.write("You're just right");
+// }
+
+// -----------------------------------------
+//      19 - LOGICAL OPERATORS
+// -----------------------------------------
+
+var number1 = 10;
+var number2 = 20;
+
+if (number1 === 10 && number1 < 20) {
+	document.write('<h2>Condition is true</h2>');
+}
+
+if (number2 === 10 || number2 < 30) {
+	document.write('<h2>Condition is true</h2>');
+}
+
+if (number2 !== number1) {
+	document.write('<h2>Condition is true</h2>');
 }
