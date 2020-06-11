@@ -13,7 +13,15 @@
 	</head>
 
 	<body>
-		<h1>Hello World!</h1>
+		<script>
+			var names = ['chris', 'paul', 'mike', 'andrew', 'don'];
+			var i = 1;
+
+			for (i = 0; i < names.length; i++) {
+				names.sort();
+				document.write('<pre>' + (i + 1) + ': ' + names[i] + '</pre>');
+			}
+		</script>
 		<script type="javascript" src="./scripts.js"></script>
 	</body>
 </html>

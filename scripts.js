@@ -475,14 +475,18 @@
 //      24 - FOR LOOPS
 // -----------------------------------------
 
-var i = 1;
+// var i = 1;
 
-for (i = 1; i < 10; i++) {
-	document.write(i + '<br>');
-}
+// for (i = 1; i < 10; i++) {
+// 	document.write(i + '<br>');
+// }
 
-var foods = ['pasta', 'pizza', 'fish'];
+// var foods = ['pasta', 'pizza', 'fish'];
 
-for (i = 0; i < foods.length; i++) {
-	document.write(foods[i] + '<br>');
-}
+// for (i = 0; i < foods.length; i++) {
+// 	document.write(foods[i] + '<br>');
+// }
+
+// -----------------------------------------
+//      25 - MINI CHALLENGE - PHONE BOOK
+// -----------------------------------------
