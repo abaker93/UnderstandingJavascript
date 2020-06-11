@@ -503,16 +503,37 @@
 //      26 - ACCESSING ELEMENTS
 // -----------------------------------------
 
-document.getElementById('title').innerHTML = 'Displaying Javascript in webpages.';
+// document.getElementById('title').innerHTML = 'Displaying Javascript in webpages.';
 
-document.querySelector('.first').style.backgroundColor = 'red';
+// document.querySelector('.first').style.backgroundColor = 'red';
 
-var selector = document.getElementsByClassName('heading');
-selector[1].innerHTML = 'Class name selected';
+// var selector = document.getElementsByClassName('heading');
+// selector[1].innerHTML = 'Class name selected';
 
-var selector2 = document.getElementsByTagName('p');
-selector2[1].innerHTML = 'Tag name selected';
+// var selector2 = document.getElementsByTagName('p');
+// selector2[1].innerHTML = 'Tag name selected';
 
-var numberOfImages = document.images.length;
+// var numberOfImages = document.images.length;
 
-document.getElementById('example').innerHTML = 'This page has ' + numberOfImages + ' images.';
+// document.getElementById('example').innerHTML = 'This page has ' + numberOfImages + ' images.';
+
+// -----------------------------------------
+//      27 - MANIPULATING ELEMENTS
+// -----------------------------------------
+
+// document.getElementById('title').innerHTML = 'This changed with Javascript';
+
+// document.getElementById('title').style.color = 'red';
+// document.getElementById('title').style.fontSize = '20px';
+
+// document.getElementById('title').id = 'id1';
+// document.getElementById('title').className = 'blue';
+
+var newElement = document.createElement('div');
+newElement.id = 'id1';
+var addText = document.createTextNode('new text string');
+var newContent = document.getElementById('title');
+
+newElement.appendChild(addText);
+
+document.body.insertBefore(newElement, newContent);

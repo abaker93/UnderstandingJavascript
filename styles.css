@@ -1,3 +1,17 @@
 img {
 	max-width: 200px;
 }
+
+.red {
+	color: red;
+	font-size: 2em;
+}
+
+.blue {
+	color: blue;
+	font-size: 2em;
+}
+
+#id1 {
+	font-family: Papyrus;
+}
