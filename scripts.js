@@ -367,17 +367,41 @@
 //      19 - LOGICAL OPERATORS
 // -----------------------------------------
 
-var number1 = 10;
-var number2 = 20;
+// var number1 = 10;
+// var number2 = 20;
 
-if (number1 === 10 && number1 < 20) {
-	document.write('<h2>Condition is true</h2>');
-}
+// if (number1 === 10 && number1 < 20) {
+// 	document.write('<h2>Condition is true</h2>');
+// }
 
-if (number2 === 10 || number2 < 30) {
-	document.write('<h2>Condition is true</h2>');
-}
+// if (number2 === 10 || number2 < 30) {
+// 	document.write('<h2>Condition is true</h2>');
+// }
 
-if (number2 !== number1) {
-	document.write('<h2>Condition is true</h2>');
+// if (number2 !== number1) {
+// 	document.write('<h2>Condition is true</h2>');
+// }
+
+// -----------------------------------------
+//      20 - SWITCH STATEMENTS
+// -----------------------------------------
+
+var month = 'November';
+
+switch (month) {
+	case 'January':
+		document.write('Happy New Year');
+		break;
+
+	case 'July':
+		document.write('Half way through the year');
+		break;
+
+	case 'November':
+	case 'December':
+		document.write('Happy Holidays');
+		break;
+
+	default:
+		document.write('The month is ' + month);
 }
