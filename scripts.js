@@ -438,3 +438,24 @@
 // }
 
 // console.log(randomNum);
+
+// -----------------------------------------
+//      22 - WHILE LOOPS
+// -----------------------------------------
+
+var i = 1;
+
+while (i < 10) {
+	document.write(i + ' ');
+	i++;
+}
+
+document.write('<br>');
+
+var foods = ['pasta', 'pizza', 'fish'];
+var j = 0;
+
+while (foods[j]) {
+	document.write(foods[j] + ' ');
+	j++;
+}
