@@ -310,16 +310,40 @@
 //      16 - IF STATEMENTS - COMPARISON
 // -----------------------------------------
 
-var a = 10;
-var b = 20;
+// var a = 10;
+// var b = 20;
 
-if (a >= b) {
-	document.write('a is equal to b!');
-}
+// if (a >= b) {
+// 	document.write('a is equal to b!');
+// }
 
-var loggedIn = true;
-var user = 'Chris';
+// var loggedIn = true;
+// var user = 'Chris';
 
-if (loggedIn) {
-	document.write('Welcome ' + user);
+// if (loggedIn) {
+// 	document.write('Welcome ' + user);
+// }
+
+// -----------------------------------------
+//      17 - IF/ELSE STATEMENTS
+// -----------------------------------------
+
+// var loggedIn = false;
+// var user = 'Chris';
+
+// if (loggedIn) {
+// 	document.write('Welcome ' + user);
+// } else {
+// 	document.write('Please log in to view page');
+// }
+
+var speedLimit = 70;
+var yourSpeed = 70;
+
+if (yourSpeed < speedLimit) {
+	document.write('Thank you for driving safely');
+} else if (yourSpeed > speedLimit) {
+	document.write('Please slow down');
+} else {
+	document.write('Careful, you are driving at the speed limit');
 }
